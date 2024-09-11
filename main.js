@@ -1,6 +1,6 @@
 let textEL = document.getElementsByClassName('titleEL')[0];
 let subTitle = document.getElementById('sub-title');
-let subP = document.getElementsByClassName('sub-title-p')[0];
+ 
 let unorderedList = document.querySelector('ul');  
 let tableContainer = document.getElementById('table-container');
 
@@ -11,7 +11,7 @@ textEL.style.color = 'blue';
 // Adding style to subTitle by id
 subTitle.style.fontWeight = 'bold';
 // Adding style to subP by class
-subTitle.classList.add('subP');
+subTitle.classList.add('sub-title-p');
 
 
 // Image
