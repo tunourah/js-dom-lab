@@ -1,0 +1,16 @@
+.sub-title-p {
+    color: rgb(126, 165, 220);
+    background-color: rgb(221, 193, 245);
+}
+ 
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.custom-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
