@@ -16,17 +16,21 @@ subTitle.classList.add('subP');
 
 // Image
 let imageElement = document.getElementsByTagName('img')[0];
-imageElement.src = "./cong.png";  // Assign the source
+imageElement.src = "https://tunora.netlify.app/assets/IMG_7254-removebg-preview.png";  // Assign the source
 imageElement.style.width = '100px';
 imageElement.style.height = '100px';
 
 // unorderedList
+
+unorderedList.style.display = 'flex';
+unorderedList.style.listStyle = 'none';
+unorderedList.style.width = '300vw';
 for (let i = 1; i <= 3; i++) {
     let liElement = document.createElement('li');   
     liElement.textContent = 'Item ' + i; 
     liElement.style.color = 'green';
     liElement.style.border = '2px solid black';
-
+    
     unorderedList.appendChild(liElement);              
 }
 
